@@ -1,0 +1,23 @@
+# eclipse
+/.project
+/.classpath
+/.springBeans
+/.settings/
+
+# idea
+/.idea/
+/*.ipr
+/*.iml
+/*.iws
+
+# p4merge
+*.orig
+
+# maven
+/target/
+
+# logs
+/logs/
+
+ReadMe.txt
+utils.iml
