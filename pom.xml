@@ -28,6 +28,8 @@
         <quartz.version>1.6.0</quartz.version>
         <ansj_seg.version>0.9</ansj_seg.version>
         <LibSVM.version>1.0.8</LibSVM.version>
+        <poi.version>3.7</poi.version>
+        <commons-math3.version>3.6.1</commons-math3.version>
     </properties>
 
     <dependencies>
@@ -112,12 +114,26 @@
             <version>${ansj_seg.version}</version>
         </dependency>
 
+        <!--weka svm-->
         <dependency>
             <groupId>nz.ac.waikato.cms.weka</groupId>
             <artifactId>LibSVM</artifactId>
             <version>${LibSVM.version}</version>
         </dependency>
 
+        <!--excel-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+
+        <!--commons-math3-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>${commons-math3.version}</version>
+        </dependency>
 
     </dependencies>
 
